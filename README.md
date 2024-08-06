@@ -44,3 +44,14 @@ To test a specific strategy, use the following command:
 ```
 
 where `<test_name>` is the name of the test to run (e.g., `stress`, `sequential`, `random`) and `<strategy>` is the memory allocation strategy to use (e.g., `first`, `best`, `worst`, `next`).
+
+## Run as a docker container
+
+To run the tests in a docker container, use the following commands:
+
+```bash
+docker build -t memory-management-tests .
+docker run -it --name test-container memory-management-tests
+```
+
+This will build the docker image and run the tests inside the container.
