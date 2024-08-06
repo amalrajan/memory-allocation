@@ -6,13 +6,13 @@ This repository contains a set of C files that simulate various memory managemen
 
 ### Memory Management Strategies
 
-1. First-Fit: Allocates the first block of memory that is large enough to meet the request. This method is fast but can lead to fragmentation over time as it doesn't consider the size of the blocks.
+1. First-Fit: Allocates the first block of memory that is large enough to meet the request.
 
-2. Best-Fit: Searches the entire list of blocks and chooses the smallest block that is adequate to fulfill the request. This minimizes wasted space but can be slower and may also lead to fragmentation due to the leftover space from the selected blocks.
+2. Best-Fit: Searches the entire list of blocks and chooses the smallest block that is adequate to fulfill the request.
 
-3. Worst-Fit: Opposite of best-fit, this technique selects the largest available block, aiming to leave the largest remaining part possible after allocation. While it can reduce the number of times the allocator needs to split a block, it potentially increases the time to search for a suitable block.
+3. Worst-Fit: Opposite of best-fit, this technique selects the largest available block, aiming to leave the largest remaining part possible after allocation.
 
-4. Next-Fit: Similar to first-fit, but instead of starting the search from the beginning each time, it starts from where it left off last time. This can be faster than first-fit but may lead to poor utilization in some scenarios, depending on the order of allocation and deallocation requests.
+4. Next-Fit: Similar to first-fit, but instead of starting the search from the beginning each time, it starts from where it left off last time.
 
 ### Files
 
