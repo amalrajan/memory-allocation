@@ -4,7 +4,7 @@
 
 This repository contains a set of C files that simulate various memory management strategies in a custom memory allocation framework. It includes a memory allocator, a test runner, and a set of memory tests.
 
-## Memory Management Strategies
+### Memory Management Strategies
 
 1. First-Fit: Allocates the first block of memory that is large enough to meet the request. This method is fast but can lead to fragmentation over time as it doesn't consider the size of the blocks.
 
