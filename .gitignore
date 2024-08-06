@@ -1,0 +1,11 @@
+# Output files
+*.o
+
+# Log files
+*.log
+
+# Compiled binary
+mem
+
+# .vscode directory
+.vscode
