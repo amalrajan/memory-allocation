@@ -22,6 +22,8 @@ This repository contains a set of C files that simulate various memory managemen
 
 ## Running Tests
 
+The tests are authored by [L. Angrave](https://siebelschool.illinois.edu/about/people/faculty/angrave).
+
 To compile and run the tests, use the following commands:
 
 ```bash
